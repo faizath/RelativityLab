@@ -101,3 +101,9 @@ q("#resize-cube-slider").oninput = () => {
     cubeObject = createModel( cube(maxInitialLength * objectSizeFactor, xRatio, yRatio, zRatio) );
     draw();
 };
+q("#home").onclick = () => {
+    window.location.href = "/";
+};
+q("#exercise").onclick = () => {
+    window.location.href = "/exercise.html";
+};
